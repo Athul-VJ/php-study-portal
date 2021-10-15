@@ -1,0 +1,9 @@
+<?php
+session_start();
+session_unset();
+setcookie("remind","$username",time()-(604800),"/","","0");
+if(session_destroy())
+{
+    header('location:../view/index.php');
+}
+?>

@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+.col-sm-6.Hdrone {
+    padding-left: 63px;
+    padding-top: 5px;
+    font-family: initial;
+}
+.col-sm-6.headingtwo {
+    padding-top: 24px;
+    font-family: initial;
+}
+.input {
+    margin-left: 160px;
+}
+.form-control.NonPoint {
+    pointer-events: none;
+}
+.pointer:hover{
+    
+    cursor: pointer;
+}
